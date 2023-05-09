@@ -28,5 +28,25 @@ a:hover{
 }
 .one:focus{
     color: rgb(255, 0, 230);
-    
-}
+    }
+    li:first-child{
+        color: rgb(255, 0, 230);
+    }
+    li:last-child{
+        background-color: gray;
+    }
+    li:nth-child(2n){
+        background-color: aqua;
+    }
+    li:nth-child(4n){
+        background-color: gold;
+    }
+    h3::before{
+        content: "Hello "  ;
+    }
+    h3::after{
+        content: " Bye " ;
+    }
+    .d::before{
+        content: " Hello i want to go denmark ";
+    }
