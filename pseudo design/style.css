@@ -1,0 +1,32 @@
+h1{
+    color: blue;
+    background-color: aqua;
+}
+.first{
+    color: rgb(226, 43, 150);
+    
+    
+}
+.first:hover{
+    color: crimson;
+    background-color: aquamarine;
+    
+}
+h3:hover{
+    color: red;
+    
+}
+h1:hover{
+    background-color: lightgreen;
+    color: rgb(226, 43, 150);
+}
+a:visited{
+    color: rgb(226, 43, 150);
+}
+a:hover{
+    background-color: aqua;
+}
+.one:focus{
+    color: rgb(255, 0, 230);
+    
+}
